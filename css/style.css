@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 32px 0;
+}
+
+.col-1 img {
+  width: 13px;
+  height: 8px;
+  margin: 10px;
+}
+
+.col-2 img {
+  width: 1200px;
+  max-width: 99%;
+}
+
+.footer {
+  width: 100%;
+  flex-shrink: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+  padding: 20px 0;
+  height: 50px;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+}
+.container .content {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.header {
+  font-family: Playfair Display, serif;
+}
+.header h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.col-1 {
+  display: flex;
+  margin: 18px 0 30px 0;
+}
+.col-1 h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  width: 700px;
+  max-width: 80%;
+  color: #4F4F4F;
+}
+
+.col-3 {
+  font-family: Playfair Display, serif;
+}
+.col-3 p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 20px;
+  color: #333333;
+}
+
+.row-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 48px 0;
+}
+.row-content .row-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 367px;
+}
+.row-content .row-2 {
+  width: 700px;
+  max-width: 70%;
+  font-family: Playfair Display, serif;
+}
+.row-content .row-2 .row-2-header {
+  font-family: Playfair Display, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 32px 0;
+  color: #000000;
+}
+.row-content .row-2 h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 0 32px 0;
+  color: #000000;
+}
+
+.item:nth-child(1) .fa {
+  font-size: 50px;
+  color: #F2994A;
+}
+
+.item {
+  display: flex;
+  margin: 10px auto;
+}
+.item .fa {
+  font-size: 50px;
+}
+
+.description-1 p:nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.description-1 {
+  padding: 12px;
+  margin: 0 0 0 40px;
+  width: 140px;
+  font-family: Montserrat, sans-serif;
+}
+.description-1 h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 17px;
+  margin: 10px 0 0 0;
+  color: #F2994A;
+}
+
+.description {
+  padding: 12px;
+  margin: 0 0 0 13px;
+  width: 140px;
+  font-family: Montserrat, sans-serif;
+}
+.description p:nth-child(1) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.description h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 17px;
+  margin: 10px 0 0 0;
+  color: #f4f4f4;
+}
+
+.check_box {
+  display: flex;
+  font-family: Montserrat, sans-serif;
+}
+.check_box p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 800px;
+  max-width: 80%;
+  line-height: 25px;
+  color: #333333;
+}
+
+.counter {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.counter .number {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: #F2994A;
+  border-radius: 6px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Playfair Display, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 10px 10px 0;
+}
+.counter p {
+  font-family: Playfair Display, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 1000px;
+  max-width: 80%;
+  line-height: 150%;
+  color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    justify-content: normal;
+    align-items: normal;
+  }
+
+  .content {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .row-content {
+    flex-direction: column;
+  }
+  .row-content .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
